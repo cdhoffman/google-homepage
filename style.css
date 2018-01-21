@@ -1,0 +1,26 @@
+h1 {
+	color: blue;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 300px;
+  margin-top: 150px;
+}
+
+body {
+	height: 100%;
+}
+
+.outside-container{
+	display: table;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.form-container{
+	margin-left: auto;
+	margin-right: auto;
+}

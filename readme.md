@@ -1,1 +1,1 @@
-This is where I will add my comments later.# google-homepage
+I'm trying to re-create the look of the Google homepage.# google-homepage

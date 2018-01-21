@@ -1,26 +1,37 @@
-h1 {
-	color: blue;
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	margin-top: 150px;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-  height: 200px;
-  width: 300px;
-  margin-top: 150px;
+.flex-container img { 
+	display: block;
+ 	margin: 20px;
+ 	height: 92px;
+ 	width: 272px;
 }
 
-body {
-	height: 100%;
+.flex-container input {
+	width: 450px;
+	height: 38px;
+	border: 1px solid #D3D3D3;
+	box-shadow: 1px 2px 8px 0px rgba(219,219,219,1);
+	margin-bottom: 10px;
 }
 
-.outside-container{
-	display: table;
-	height: 100%;
-	margin: 0 auto;
+.flex-container button {
+	padding: 10px 10px 10px 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #F8F8F8;
+	color: #808080;
+	margin: 10px;
+	border: none;
+	font-size: 12px;
+	text-align: center;
 }
 
-.form-container{
-	margin-left: auto;
-	margin-right: auto;
-}
